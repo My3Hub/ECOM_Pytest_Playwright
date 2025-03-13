@@ -1,0 +1,16 @@
+{
+  "user_details": [{
+    "first_name" : "mythri",
+    "last_name" : "ogoti",
+    "dob": "1993-07-03",
+    "street": "test street",
+    "postal_code": "54321",
+    "city": "Houston",
+    "state": "Texas",
+    "country": "US",
+    "phone": "9876543210",
+    "email": "mythri@gmail.com",
+    "password": "Myth@0304"
+  }]
+
+}
