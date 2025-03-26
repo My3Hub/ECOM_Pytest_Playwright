@@ -1,7 +1,7 @@
 {
-  "user_details": [{
-    "first_name" : "mythri",
-    "last_name" : "ogoti",
+  "user_details": {
+    "first_name": "mythri",
+    "last_name": "ogoti",
     "dob": "1993-07-03",
     "street": "test street",
     "postal_code": "54321",
@@ -9,8 +9,23 @@
     "state": "Texas",
     "country": "US",
     "phone": "9876543210",
-    "email": "mythri@gmail.com",
-    "password": "Myth@0304"
-  }]
-
+    "email": "mythu@gmail.com",
+    "password": "Apput@0905"
+  },
+  "billing_address": {
+    "street": "test street",
+    "postal_code": "54321",
+    "city": "Houston",
+    "state": "Texas",
+    "country": "US"
+  },
+  "credit_card": {
+    "card_number": "4111111111111111",
+    "expiry_date": "12/27",
+    "cvv": "123"
+  },
+  "invalid_user": {
+    "email": "Axyz@gmail.com",
+    "password": "test@0905"
+  }
 }

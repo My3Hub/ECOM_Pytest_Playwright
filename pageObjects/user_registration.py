@@ -1,6 +1,6 @@
+import time
+
 from conftest import user_details
-
-
 
 class UserRegistration:
     def __init__(self,page):
@@ -24,4 +24,6 @@ class UserRegistration:
         self.page.get_by_label("Email address").fill(user_details["email"])
         self.page.get_by_placeholder("Your password").fill(user_details["password"])
         self.page.get_by_role("button", name="Register").click()
+        self.page.wait_for_load_state("networkidle")
+        time.sleep(5)
 
